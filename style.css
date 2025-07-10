@@ -28,6 +28,11 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
+.user-text{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
 
 /* nav style  */
 
@@ -107,3 +112,26 @@ nav h1{
     border-radius: 20px;
 }
 
+/* user section  */
+
+.users{
+    background-color: #4d47ff17;
+    height: 300px;
+    width: 1140px;
+    margin: 0 auto 100px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 50px 200px;
+}
+.user-title{
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.user-quantity{
+    display: flex;
+    justify-content: space-between;
+}
+.user-dec{
+    font-size: 20px;
+}
