@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-main{
+
+main {
     background-color: #f5f7ff;
     padding: 100px 0 0;
 }
@@ -52,7 +53,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 158px;
-    padding-bottom: 200px;
+    padding-bottom:50px 0 200px;
 }
 
 nav {
@@ -65,7 +66,7 @@ nav {
 }
 
 nav h1 {
-    font-size: 40px;
+    font-size: 34px;
     font-weight: bold;
     font-style: normal;
 }
@@ -73,6 +74,8 @@ nav h1 {
 .signup-btn {
     height: 48px;
     width: 132px;
+    font-size: 16px;
+    font-weight: bold;
 
 }
 
@@ -92,6 +95,8 @@ nav h1 {
 .focused-btn {
     height: 48px;
     width: 174px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 /* action section  */
@@ -128,7 +133,7 @@ nav h1 {
 .action-img {
     height: 320px;
     width: 400px;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 /* user section  */
@@ -222,7 +227,7 @@ nav h1 {
 .studio {
     height: 696px;
     width: 1140px;
-    margin: 0 auto 100px;
+    margin: 0 auto 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -292,12 +297,18 @@ textarea {
     width: 497px;
     padding: 20px 32px;
     border-radius: 10px;
-    border: 1px solid #F2EDED;
+    border: 1px solid #D6DDED;
     margin-bottom: 10px;
+}
+.message-form input[placeholder]{
+    font-size: 20px;
 }
 
 textarea {
     height: 135px;
+}
+textarea[placeholder]{
+    font-size: 20px;
 }
 
 .touch-btn {
@@ -307,34 +318,38 @@ textarea {
 
 /* footer section  */
 
-footer{
+footer {
     text-align: center;
     height: 428px;
     border-top: 1px solid #00000010;
-    
 }
-.footer-content{
+
+.footer-content {
     height: 221px;
     width: 531px;
     margin: 100px auto;
-    padding: 50px;
+    padding: 30px;
 }
-.footer-title{
+
+.footer-title {
     font-size: 100px;
     font-weight: 900;
     margin-bottom: 10px;
 }
-.footer-des{
+
+.footer-des {
     margin-bottom: 30px;
 }
-.footer-links{
+
+.footer-links {
     width: 400px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.footer-links a{
+
+.footer-links a {
     text-decoration: none;
     font-size: 18px;
 }
