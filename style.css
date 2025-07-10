@@ -65,8 +65,8 @@ nav {
     align-items: center;
 }
 
-nav h1 {
-    font-size: 34px;
+nav .logo {
+    font-size: 45px;
     font-weight: bold;
     font-style: normal;
 }
