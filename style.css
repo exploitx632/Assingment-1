@@ -181,3 +181,33 @@ nav h1{
 .user-id img{
     border-radius: 50%;
 }
+
+
+/* studio section  */
+
+.studio{
+    height: 696px;
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.studio-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.studio-des{
+    margin-bottom: 20px;
+}
+.studio-btn{
+    height: 48px;
+    width: 195px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.studio-image{
+    border-radius: 30px;
+}
