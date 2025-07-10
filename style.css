@@ -1,34 +1,39 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* shared style  */
-.des-font-color{
+.des-font-color {
     color: rgba(37, 36, 50, 0.726);
 }
-.primary-text-color{
+
+.primary-text-color {
     color: #4E47FF;
 }
-.primary-btn{
+
+.primary-btn {
     background-color: #4E47FF;
     color: white;
     border: none;
     border-radius: 10px;
     font-weight: 600;
 }
-.raleway-font{
+
+.raleway-font {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
-.inter-font{
+
+.inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
-.user-text{
+
+.user-text {
     font-size: 80px;
     font-weight: bold;
     color: #4E47FF;
@@ -36,7 +41,7 @@
 
 /* nav style  */
 
-header{
+header {
     background-image: url(Assets/Hero-bg.png);
     height: 700px;
     width: 100%;
@@ -45,7 +50,8 @@ header{
     gap: 158px;
     padding-bottom: 200px;
 }
-nav{
+
+nav {
     height: 150px;
     width: 1150px;
     margin: 0 auto;
@@ -54,59 +60,68 @@ nav{
     align-items: center;
 }
 
-nav h1{
+nav h1 {
     font-size: 40px;
-  font-weight: bold;
-  font-style: normal;
+    font-weight: bold;
+    font-style: normal;
 }
-.signup-btn{
+
+.signup-btn {
     height: 48px;
     width: 132px;
 
 }
-.banner{
+
+.banner {
     text-align: center;
     height: 230px;
     width: 900px;
     margin: 0 auto;
 }
-.banner-title{
+
+.banner-title {
     font-weight: 600;
-  font-size: 65px;
-  margin-bottom: 35px ;
+    font-size: 65px;
+    margin-bottom: 35px;
 }
-.focused-btn{
+
+.focused-btn {
     height: 48px;
     width: 174px;
 }
 
 /* action section  */
 
-.action{
+.action {
     height: 320px;
     width: 1140px;
     margin: 100px auto;
     display: flex;
     justify-content: space-between;
 }
-.action-content{
+
+.action-content {
     height: 200px;
     width: 515px;
     margin: 40px 0;
 }
-.action-title{
+
+.action-title {
     font-size: 42px;
     margin-bottom: 20px;
 }
-.action-description{
+
+.action-description {
     font-size: 24px;
     margin-bottom: 20px;
 }
-.launch-btn{
+
+.launch-btn {
     height: 48px;
     width: 225px;
 }
-.action-img{
+
+.action-img {
     height: 320px;
     width: 400px;
     border-radius: 20px;
@@ -114,7 +129,7 @@ nav h1{
 
 /* user section  */
 
-.users{
+.users {
     background-color: #4d47ff17;
     height: 300px;
     width: 1140px;
@@ -123,36 +138,43 @@ nav h1{
     text-align: center;
     padding: 50px 200px;
 }
-.user-title{
+
+.user-title {
     font-size: 38px;
     font-weight: bold;
     margin-bottom: 40px;
 }
-.user-quantity{
+
+.user-quantity {
     display: flex;
     justify-content: space-between;
 }
-.user-dec{
+
+.user-dec {
     font-size: 20px;
 }
+
 /* user comment section  */
-.user-reviews{
-    height:342px;
+.user-reviews {
+    height: 342px;
     width: 1140px;
     margin: 0 auto 100px;
 }
-.reviews-title{
+
+.reviews-title {
     text-align: center;
     font-size: 42px;
     font-weight: 600;
     margin-bottom: 50px;
 }
-.user-comment{
+
+.user-comment {
     height: 243px;
     display: flex;
     gap: 20px;
 }
-.user{
+
+.user {
     height: 243px;
     width: 366px;
     padding: 24px;
@@ -160,32 +182,38 @@ nav h1{
     border-radius: 15px;
 
 }
-.rating{
+
+.rating {
     height: 20px;
     width: 116px;
     margin-bottom: 10px;
 }
-.rating img{
+
+.rating img {
     padding: 0 0.5px;
 }
-.comment h3{
+
+.comment h3 {
     margin-bottom: 10px;
 }
-.comment p{
+
+.comment p {
     margin-bottom: 25px;
 }
-.user-id{
+
+.user-id {
     display: flex;
     gap: 20px;
 }
-.user-id img{
+
+.user-id img {
     border-radius: 50%;
 }
 
 
 /* studio section  */
 
-.studio{
+.studio {
     height: 696px;
     width: 1140px;
     margin: 0 auto;
@@ -194,20 +222,77 @@ nav h1{
     align-items: center;
     justify-content: center;
 }
-.studio-title{
+
+.studio-title {
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 20px;
 }
-.studio-des{
+
+.studio-des {
     margin-bottom: 20px;
 }
-.studio-btn{
+
+.studio-btn {
     height: 48px;
     width: 195px;
     margin-bottom: 20px;
     font-weight: 500;
 }
-.studio-image{
+
+.studio-image {
     border-radius: 30px;
+}
+
+/* message section  */
+
+.message {
+    height: 632px;
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.message-title {
+    height: 232px;
+    width: 528px;
+}
+
+.message-title h3 {
+    font-size: 97px;
+    font-weight: bold;
+}
+
+.message-form {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.message-form label {
+    font-size: 18px;
+}
+
+.message-form input,
+textarea {
+    height: 70px;
+    width: 497px;
+    padding: 20px 32px;
+    border-radius: 10px;
+    border: 1px solid #F2EDED;
+    margin-bottom: 10px;
+}
+
+textarea {
+    height: 135px;
+}
+
+.touch-btn {
+    height: 62px;
+    font-size: 16px;
 }
